@@ -1,0 +1,17 @@
+{
+    "all": true,
+    "exclude": [
+        "coverage/**",
+        "packages/*/test{,s}/**",
+        "**/*.d.ts",
+        "test{,s}/**",
+        "test{,-*}.{js,cjs,mjs,ts}",
+        "**/*{.,-}test.{js,cjs,mjs,ts}",
+        "**/*{.,-}spec.{js,cjs,mjs,ts}",
+        "**/__tests__/**",
+        "**/{ava,babel,nyc}.config.{js,cjs,mjs}",
+        "**/jest.config.{js,cjs,mjs,ts}",
+        "**/{karma,rollup,webpack}.config.js",
+        "**/.{eslint,mocha}rc.{js,cjs}"
+    ],
+}

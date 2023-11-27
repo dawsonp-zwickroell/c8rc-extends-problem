@@ -1,0 +1,4 @@
+{
+    "extends": "../../.c8rc.json",
+        "exclude": ["**/*.spec.js", "index.js"]
+}
